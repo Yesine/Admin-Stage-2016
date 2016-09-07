@@ -1951,7 +1951,7 @@ span.section {
 .form-control {
   border-radius: 0;
   line-height: 30px;
-  width: 100%;
+  width: 40%;
 }
 .form-horizontal .control-label {
   padding-top: 8px
