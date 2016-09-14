@@ -2,6 +2,13 @@
 <html lang="en">
 
 <head>
+   <script src="//cdn.ckeditor.com/4.5.10/standard/ckeditor.js"></script>
+   <script src="//cdn.ckeditor.com/4.5.10/standard/ckeditor.js"></script>
+   <script src="//cdn.ckeditor.com/<version.number>/<distribution>/ckeditor.js"></script>
+   <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="plugin/tinymce/tinymce.min.js"></script>
+    <script type="text/javascript" src="plugin/tinymce/init-tinymce.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!-- Meta, title, CSS, favicons, etc. -->
   <meta charset="utf-8">
@@ -117,11 +124,13 @@
           </div>
           <!-- /sidebar menu -->
 
+
           <!-- /menu footer buttons -->
          
           <!-- /menu footer buttons -->
         </div>
       </div>
+
       <div class="top_nav">
         <div class="nav_menu">
           <nav class="" role="navigation">
@@ -147,370 +156,39 @@
 
       <!-- page content -->
       <div class="right_col" role="main">
-
-        <br />
+ <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="x_panel" style="height:600px;">
+                <div class="x_title">
+                  <h2>Plain Page</h2>
+                  <ul class="nav navbar-right panel_toolbox">
+                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Settings 1</a>
+                        </li>
+                        <li><a href="#">Settings 2</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </div>
+                <textarea name="editor1" id="editor1" class="tinymce"></textarea>
+                <script>
+                     CKEDITOR.replace( 'editor1' );
+                 </script><br>
+                 <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3 col-lg-2 col-lg-offset-10">
+                   <button type="submit" class="btn btn-primary">Cancel</button>
+                   <button type="submit" class="btn btn-success">Submit</button>
+                 </div>
+              </div>
+            </div>
         <div class="">
-
-<div class="row tile_count">
-          <div class="animated flipInY col-md-2 col-sm-4 col-xs-4 tile_stats_count">
-            <div class="left"></div>
-            <div class="right">
-              <span class="count_top"><i class="fa fa-users"></i> Nombre d'utilisateurs</span>
-              <div class="count">2376</div>
-              <span class="count_bottom"><i class="red">35</i> Nouveaux</span>
-            </div>
-          </div>
-          <div class="animated flipInY col-md-2 col-sm-4 col-xs-4 tile_stats_count">
-            <div class="left"></div>
-            <div class="right">
-              <span class="count_top"><i class="fa fa-envelope" aria-hidden="true"></i> Messages</span>
-              <div class="count">130</div>
-              <span class="count_bottom"><i class="red">8</i> Nouveaux</span>
-            </div>
-          </div>
-          
-          <div class="animated flipInY col-md-2 col-sm-4 col-xs-4 tile_stats_count">
-            <div class="left"></div>
-            <div class="right">
-              <span class="count_top"><i class="fa fa-folder" aria-hidden="true"></i>  Nombre de projet</span>
-              <div class="count">286</div>
-              <span class="count_bottom"><i class="red">18</i> Nouveaux</span>
-            </div>
-          </div>
-          <div class="animated flipInY col-md-2 col-sm-4 col-xs-4 tile_stats_count">
-            <div class="left"></div>
-            <div class="right">
-              <span class="count_top"><i class="fa fa-user"></i> Nombre d'etudiants</span>
-              <div class="count">1286</div>
-              <span class="count_bottom"><i class="red">20</i> Nouveaux</span>
-            </div>
-          </div>
-          <div class="animated flipInY col-md-2 col-sm-4 col-xs-4 tile_stats_count">
-            <div class="left"></div>
-            <div class="right">
-              <span class="count_top"><i class="fa fa-users"></i> Nombre d'entreprises</span>
-              <div class="count">690</div>
-              <span class="count_bottom"><i class="red">6 </i> Nouveaux</span>
-            </div>
-          </div>
-          <div class="animated flipInY col-md-2 col-sm-4 col-xs-4 tile_stats_count">
-            <div class="left"></div>
-            <div class="right">
-              <span class="count_top"><i class="fa fa-users"></i> Nombre d'instituts</span>
-              <div class="count">400</div>
-              <span class="count_bottom"><i class="red">11</i> Nouveaux</span>
-            </div>
-          </div>
-
-        </div>
-<div class="col-md-4">
-  <div class="x_panel">
-    <div class="x_title">
-      <h2>Actualité Etudiant <br>
-      </h2>
-      <ul class="nav navbar-right panel_toolbox">
-        <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a> </li>
-        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Settings 1</a> </li>
-            <li><a href="#">Settings 2</a> </li>
-          </ul>
-        </li>
-        <li><a class="close-link"><i class="fa fa-close"></i></a> </li>
-      </ul>
-      <div class="clearfix"></div>
-    </div>
-    <div class="x_content">
-      <article class="media event"> <a class="pull-left date">
-        <p class="month">April</p>
-        <p class="day">23</p>
-        </a>
-        <div class="media-body"><a class="title" href="#">Trighi Ahmad</a>
-          <p>Est accepter de puis ISIM</p>
-        </div>
-      </article>
-      <article class="media event"> <a class="pull-left date">
-        <p class="month">April</p>
-        <p class="day">23</p>
-        </a>
-        <div class="media-body"> <a class="title" href="#">Item Two Tittle</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </article>
-      <article class="media event"> <a class="pull-left date">
-        <p class="month">April</p>
-        <p class="day">23</p>
-        </a>
-        <div class="media-body"> <a class="title" href="#">Item Two Tittle</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </article>
-      <article class="media event"> <a class="pull-left date">
-        <p class="month">April</p>
-        <p class="day">23</p>
-        </a>
-        <div class="media-body"> <a class="title" href="#">Item Two Tittle</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </article>
-      <article class="media event"> <a class="pull-left date">
-        <p class="month">April</p>
-        <p class="day">23</p>
-        </a>
-        <div class="media-body"> <a class="title" href="#">Item Three Tittle</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </article>
-    </div>
-  </div>
-</div>
-<div class="col-md-4">
-  <div class="x_panel">
-    <div class="x_title">
-      <h2>Actualité Institut <br>
-      </h2>
-      <ul class="nav navbar-right panel_toolbox">
-        <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a> </li>
-        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Settings 1</a> </li>
-            <li><a href="#">Settings 2</a> </li>
-          </ul>
-        </li>
-        <li><a class="close-link"><i class="fa fa-close"></i></a> </li>
-      </ul>
-      <div class="clearfix"></div>
-    </div>
-    <div class="x_content">
-      <article class="media event"> <a class="pull-left date">
-        <p class="month">April</p>
-        <p class="day">23</p>
-        </a>
-        <div class="media-body"> <a class="title" href="#">Item One Tittle</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </article>
-      <article class="media event"> <a class="pull-left date">
-        <p class="month">April</p>
-        <p class="day">23</p>
-        </a>
-        <div class="media-body"> <a class="title" href="#">Item Two Tittle</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </article>
-      <article class="media event"> <a class="pull-left date">
-        <p class="month">April</p>
-        <p class="day">23</p>
-        </a>
-        <div class="media-body"> <a class="title" href="#">Item Two Tittle</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </article>
-      <article class="media event"> <a class="pull-left date">
-        <p class="month">April</p>
-        <p class="day">23</p>
-        </a>
-        <div class="media-body"> <a class="title" href="#">Item Two Tittle</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </article>
-      <article class="media event"> <a class="pull-left date">
-        <p class="month">April</p>
-        <p class="day">23</p>
-        </a>
-        <div class="media-body"> <a class="title" href="#">Item Three Tittle</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </article>
-    </div>
-  </div>
-</div>
-<div class="col-md-4">
-  <div class="x_panel">
-    <div class="x_title">
-      <h2>Actualité Entreprise<br>
-      </h2>
-      <ul class="nav navbar-right panel_toolbox">
-        <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a></li>
-        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Settings 1</a></li>
-            <li><a href="#">Settings 2</a></li>
-          </ul>
-        </li>
-        <li><a class="close-link"><i class="fa fa-close"></i></a></li>
-      </ul>
-      <div class="clearfix"></div>
-    </div>
-    <div class="x_content">
-      <article class="media event"> <a class="pull-left date">
-        <p class="month">April</p>
-        <p class="day">23</p>
-        </a>
-        <div class="media-body"><a class="title" href="#">IBS</a>
-          <p>Mise a jour profile</p>
-        </div>
-      </article>
-      <article class="media event"> <a class="pull-left date">
-        <p class="month">April</p>
-        <p class="day">23</p>
-        </a>
-        <div class="media-body"><a class="title" href="#">ISIMS</a>
-          <p>a ajouter un nouveaux projet</p>
-        </div>
-      </article>
-      <article class="media event"> <a class="pull-left date">
-        <p class="month">April</p>
-        <p class="day">23</p>
-        </a>
-        <div class="media-body"> <a class="title" href="#">Item Two Tittle</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </article>
-      <article class="media event"> <a class="pull-left date">
-        <p class="month">April</p>
-        <p class="day">23</p>
-        </a>
-        <div class="media-body"> <a class="title" href="#">Item Two Tittle</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </article>
-      <article class="media event"> <a class="pull-left date">
-        <p class="month">April</p>
-        <p class="day">23</p>
-        </a>
-        <div class="media-body"> <a class="title" href="#">Item Three Tittle</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </article>
-    </div>
-  </div>
-</div>
-<div class="col-md-4 col-sm-4 col-xs-12">
-  <div class="x_panel tile fixed_height_320">
-    <div class="x_title">
-      <h2>App Versions</h2>
-      <ul class="nav navbar-right panel_toolbox">
-        <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a> </li>
-        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Settings 1</a> </li>
-            <li><a href="#">Settings 2</a> </li>
-          </ul>
-        </li>
-        <li><a class="close-link"><i class="fa fa-close"></i></a> </li>
-      </ul>
-      <div class="clearfix"></div>
-    </div>
-    <div class="x_content">
-      <h4>App Usage across versions</h4>
-      <div class="widget_summary">
-        <div class="w_left w_25"> <span>0.1.5.2</span> </div>
-        <div class="w_center w_55">
-          <div class="progress">
-            <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 66%;"> <span class="sr-only">60% Complete</span> </div>
-          </div>
-        </div>
-        <div class="w_right w_20"> <span>123k</span> </div>
-        <div class="clearfix"></div>
-      </div>
-      <div class="widget_summary">
-        <div class="w_left w_25"> <span>0.1.5.3</span> </div>
-        <div class="w_center w_55">
-          <div class="progress">
-            <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 45%;"> <span class="sr-only">60% Complete</span> </div>
-          </div>
-        </div>
-        <div class="w_right w_20"> <span>53k</span> </div>
-        <div class="clearfix"></div>
-      </div>
-      <div class="widget_summary">
-        <div class="w_left w_25"> <span>0.1.5.4</span> </div>
-        <div class="w_center w_55">
-          <div class="progress">
-            <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"> <span class="sr-only">60% Complete</span> </div>
-          </div>
-        </div>
-        <div class="w_right w_20"> <span>23k</span> </div>
-        <div class="clearfix"></div>
-      </div>
-      <div class="widget_summary">
-        <div class="w_left w_25"> <span>0.1.5.5</span> </div>
-        <div class="w_center w_55">
-          <div class="progress">
-            <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 5%;"> <span class="sr-only">60% Complete</span> </div>
-          </div>
-        </div>
-        <div class="w_right w_20"> <span>3k</span> </div>
-        <div class="clearfix"></div>
-      </div>
-      <div class="widget_summary">
-        <div class="w_left w_25"> <span>0.1.5.6</span> </div>
-        <div class="w_center w_55">
-          <div class="progress">
-            <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 2%;"> <span class="sr-only">60% Complete</span> </div>
-          </div>
-        </div>
-        <div class="w_right w_20"> <span>1k</span> </div>
-        <div class="clearfix"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-3 col-xs-12 widget widget_tally_box">
-  <div class="x_panel fixed_height_390">
-    <div class="x_title">
-      <h2>Base de Données</h2>
-      <div class="clearfix"></div>
-    </div>
-    <div class="x_content">
-      <div style="text-align: center; margin-bottom: 17px">
-        <ul class="verticle_bars list-inline">
-          <li>
-            <div class="progress vertical progress_wide bottom">
-              <div class="progress-bar progress-bar-dark" role="progressbar" data-transitiongoal="65" style="height: 65%;" aria-valuenow="65"></div>
-            </div>
-          </li>
-          <li>
-            <div class="progress vertical progress_wide bottom">
-              <div class="progress-bar progress-bar-gray" role="progressbar" data-transitiongoal="85" style="height: 85%;" aria-valuenow="85"></div>
-            </div>
-          </li>
-          <li>
-            <div class="progress vertical progress_wide bottom">
-              <div class="progress-bar progress-bar-info" role="progressbar" data-transitiongoal="45" style="height: 45%;" aria-valuenow="45"></div>
-            </div>
-          </li>
-          <li>
-            <div class="progress vertical progress_wide bottom">
-              <div class="progress-bar progress-bar-success" role="progressbar" data-transitiongoal="75" style="height: 75%;" aria-valuenow="75"></div>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="divider"></div>
-      <ul class="legend list-unstyled">
-        <li>
-          <p> <span class="icon"><i class="fa fa-square dark"></i></span> <span class="name">Nos Instituts</span> </p>
-        </li>
-        <li>
-          <p> <span class="icon"><i class="fa fa-square grey"></i></span> <span class="name">Nos Etudiants</span> </p>
-        </li>
-        <li>
-          <p> <span class="icon"><i class="fa fa-square blue"></i></span> <span class="name">Nos Entreprises</span> </p>
-        </li>
-        <li>
-          <p> <span class="icon"><i class="fa fa-square green"></i></span> <span class="name">Les Projets</span> </p>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-</div>
-
-
- <div class="clearfix"></div>
+<div class="clearfix"></div>
 
 
           <div class="row"> </div>
@@ -519,12 +197,14 @@
         <!-- footer content -->        <!-- /footer content -->
 
       </div>
+
       <div class="sidebar-footer hidden-small"> <a href="profile.html" data-toggle="tooltip" data-placement="top" title="Settings"> <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> </a>   <a href="login.html" data-toggle="tooltip" data-placement="top" title="Logout"> <span class="glyphicon glyphicon-off" aria-hidden="true"></span> </a> </div>
       <!-- /page content -->
     </div>
 
 
   </div>
+
 
   <div id="custom_notifications" class="custom-notifications dsp_none"> </div>
 
